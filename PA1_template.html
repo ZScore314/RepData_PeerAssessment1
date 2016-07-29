@@ -166,7 +166,7 @@ max_time &lt;- t1[max_int,1]</code></pre>
 <pre class="r"><code>Int_Avg &lt;- function(x){
         t1[match(x,t1$interval),2]
 }</code></pre>
-<p>Modify the original data set to replace the NAs</p>
+<p>Modify the original dataset to replace the NAs</p>
 <pre class="r"><code>data. &lt;- data
 for(i in 1:nrow(data.)){
         if(is.na(data.[i,]$steps)){

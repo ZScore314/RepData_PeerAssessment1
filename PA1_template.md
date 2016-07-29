@@ -99,7 +99,7 @@ Int_Avg <- function(x){
 }
 ```
 
-Modify the original data set to replace the NAs
+Modify the original dataset to replace the NAs
 
 ```r
 data. <- data
